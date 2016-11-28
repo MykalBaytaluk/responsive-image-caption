@@ -1,0 +1,62 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  margin: 0;
+  background-color: #e2e2e2;
+}
+
+.img-flex {
+  width: 100%;
+  margin: 0;
+}
+
+.banner-content {
+  background-color: #e2e2e2;
+  width: 100%;
+  text-align: left;
+  padding: 0 1.5rem;
+}
+
+.banner-content h2 {
+  font-family: "Denk One", sans-serif;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.banner-content p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+@media only screen (min-width: 60em) {
+
+  .banner {
+    position: relative;
+  }
+
+  .banner-content {
+    position: absolute;
+  }
+
+}
